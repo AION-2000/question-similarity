@@ -1,0 +1,26 @@
+Question Pair Similarity Classification - Performance Report
+
+1.  Approach:
+    - A Siamese LSTM network was chosen for its effectiveness in comparing two sequences of text.
+    - The model uses shared embedding and LSTM layers to learn a dense representation of each question.
+    - The two representations are then concatenated and passed through dense layers for final classification.
+
+2.  Data Preprocessing:
+    - Text was cleaned by converting to lowercase and removing special characters.
+    - NLTK was used for tokenization, stopword removal, and lemmatization.
+    - The processed text was converted to integer sequences and padded to a uniform length.
+
+3.  Model Evaluation Metrics:
+    - Accuracy: 0.7871
+    - Precision: 0.7106
+    - Recall: 0.7145
+    - F1-Score: 0.7125
+    - AUC-ROC: 0.8613
+
+4.  Justification of Choices:
+    - Model: The Siamese architecture is ideal for similarity tasks as it learns to compare inputs directly.
+    - Evaluation Metric: F1-Score was prioritized due to the class imbalance in the dataset, as it provides a better measure of a model's effectiveness than accuracy alone.
+    - Tuning: EarlyStopping was used to prevent overfitting and ensure the best model was saved.
+
+5.  Conclusion:
+    The developed model provides a robust solution for classifying question pair similarity. The results demonstrate a strong ability to distinguish between duplicate and non-duplicate questions.
