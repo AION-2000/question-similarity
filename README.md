@@ -187,7 +187,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 **Questions or suggestions?** Let's connect!
 
-- 🐙 GitHub: [[@your-username](https://github.com/your-username)](https://github.com/AION-2000)
+- 🐙 GitHub: (https://github.com/your-username)](https://github.com/AION-2000)
 - 📧 Email: aionshihabshahriar@gmail.com
 
 ---
