@@ -51,7 +51,7 @@ question-similarity/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/question-similarity.git
+   git clone [https://github.com/your-username/question-similarity.git](https://github.com/AION-2000)
    cd question-similarity
    ```
 
