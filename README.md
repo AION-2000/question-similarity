@@ -1,6 +1,6 @@
 # 🔍 Question Pair Similarity Classification
 
-> An end-to-end machine learning solution for identifying semantically similar questions using Siamese LSTM networks
+> A machine-learning study of semantic question matching using a Siamese LSTM model. It covers the Quora question-pair task, data analysis, model training and evaluation.
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow 2.x](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
